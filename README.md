@@ -182,7 +182,7 @@
 | 3 | ROGII Wellbore Curves Recognition | [Kaggle 官方页](https://www.kaggle.com/competitions/rogii-2-wellbore-curve-tracing) | 从扫描测井图中追踪地质曲线，本质是图像分割、曲线提取与矢量后处理 | 需 CV/图像处理基础，关注曲线连续性；约67队，竞争较小 | 中 | 否 |
 | 4 | SiClink Mouse Visual Reconstruction BCI | [Kaggle 官方页](https://www.kaggle.com/competitions/siclink-mouse-visual-reconstruction-bci-challenge) | 从小鼠视觉皮层脉冲活动重建其看到的汉字图像，神经解码 + 图像重建 | 需信号处理/BCI 基础；约27队，冷门但技术门槛高 | 高 | 否 |
 | 5 | Memecoins: Pump or Dump | [Kaggle 官方页](https://www.kaggle.com/competitions/memecoins-pump-or-dump) | 用 Solana/pump.fun 链上数据预测新币暴涨/暴跌，二分类 + 时间序列泛化 | 评分针对尚未发生的未来日期，需防时间泄漏；周期约9天，适合快速试错 | 中低 | 否 |
-| 6 | Aura: Calibration-Free EMG Challenge | [Kaggle 官方页](https://www.kaggle.com/competitions/vr-calibration-free-emg-challenge-pieeg) | 为 PiEEG Aura 设备做免校准肌电算法，跨用户、跨电极位置保持鲁棒 | 需 EMG 信号处理与域泛化基础；队伍≤5、每日≤5次；赛后需 Aura 真机新用户复现验证；奖金口径 Overview/Rules 冲突 | 中 | 否（但获奖后需真机复现验证） | 否 |
+| 6 | Aura: Calibration-Free EMG Challenge | [Kaggle 官方页](https://www.kaggle.com/competitions/vr-calibration-free-emg-challenge-pieeg) | 为 PiEEG Aura 设备做免校准肌电算法，跨用户、跨电极位置保持鲁棒 | 需 EMG 信号处理与域泛化基础；队伍≤5、每日≤5次；赛后需 Aura 真机新用户复现验证；奖金口径 Overview/Rules 冲突 | 中 | 否（但获奖后需真机复现验证） |
 | 7 | Predicting Soil Grain Size from Images | [Kaggle 官方页](https://www.kaggle.com/competitions/soil-grain-size-from-photos) | 从土壤表面照片预测累计粒径分布，图像回归 | 基础 CNN/迁移学习可起步；奖金小、队伍多，适合练手 | 低 | 否 |
 | 8 | Enveda CASMI 2026 Molecule ID | [Kaggle 官方页](https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra) | 从质谱数据预测小分子 2D 结构，化学信息学 + 谱图解析 | Code Competition，通常禁外网；需化学/质谱背景，约5700队 | 高 | 否 |
 | 9 | Name That LLM | [Kaggle 官方页](https://www.kaggle.com/competitions/name-that-llm) | 根据文本判断由哪个大模型生成，文本风格指纹与分类 | 约6600队，竞争激烈；文本嵌入 + 分类器即可起步但要冲榜难 | 中 | 否 |
