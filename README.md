@@ -11,10 +11,12 @@
 
 ## 快速结论（如果只看一屏）
 
+[本轮复核与最新的现金奖机会](#十优先机会与复核记录2026-11-22)优先依据实际投稿、当前奖金名额和参与成本。
+
 | 诉求 | 首选 |
 |---|---|
-| 获奖最容易（名额多、队伍少） | Kaggle Smart Buildings（$40k / 208 队 / 22 个现金名额） |
-| 最冷门（个位数队伍） | FlagOS Track1/2（3 队）、Soccer 特征设计（25 队）、SiClink（27 队） |
+| 奖面较宽的算法赛 | Universal Cup（30 个现金名额，实际参赛数待开赛确认） · Smart Buildings（主榜 8 个，加最终论文 12 个奖项） |
+| 可以小成本尝试 | Reddit Devvit 反馈奖（5×$200） · Zindi 船舶噪声写作奖（2×$1,000） |
 | 国内纯算法、无开发、无答辩 | 石化行业算子赛道（¥50.8 万 / 12-8）、天池复杂表格识别（¥2 万 / 12-31） |
 | 完全零代码 | 支付宝许愿池金点子奖（5×¥2000 / 12-6） |
 | 长期稳定任务 | Numerai（股市预测，NMR 代币，每周提交） |
@@ -26,9 +28,9 @@
 
 | # | 赛事 | 平台 | 方向 | 奖金 | 队伍数 | 截止 | 交付物 |
 |---|---|---|---|---|---|---|---|
-| 1 | Smart Buildings 控制优化 | Kaggle | 强化学习/回归/优化 | $40,000 | ~208 | 2027-01-15 | Notebook；主榜前 8 名 + 论文奖 14 名 |
-| 2 | Soccer Feature Design Hackathon | Kaggle 社区 | 特征工程+建模 | $10,000 | 25 | 约 3 个月 | 特征设计 |
-| 3 | ROGII Wellbore Curves Recognition | Kaggle 社区 | 图像分割/识别 | $10,001 | 67 | 约 1 个月 | 曲线描绘 |
+| 1 | Smart Buildings 控制优化 | Kaggle | 强化学习/回归/优化 | $40,000（含首轮） | 当前上榜数待核实 | 2027-01-15（UTC） | Notebook；主榜 8 个 + 最终论文 12 个奖项 |
+| 2 | Soccer Feature Design Hackathon | Kaggle 社区 | 特征工程+建模 | $10,000 | 25（旧记录） | 待核实 | 特征设计 |
+| 3 | ROGII Wellbore Curves Recognition | Kaggle 社区 | 图像分割/识别 | $10,001 | 67（旧记录） | 待核实 | 曲线描绘 |
 | 4 | SiClink Mouse Visual Reconstruction BCI | Kaggle 社区 | 神经信号→图像重建 | $10,000 | 27 | 约 2 个月 | 重建模型 |
 | 5 | Memecoins: Pump or Dump | Kaggle | 链上数据二分类 | $5,000 | 477 | 约 9 天 | 预测 |
 | 6 | Aura: Calibration-Free EMG Challenge | Kaggle | 信号分类 | $1,000 | 314 | 约 9 天 | 算法 |
@@ -40,9 +42,9 @@
 | 12 | Squares in Squares | Kaggle Featured | 几何优化 | $50,000 | 2,353 | 约 8 个月 | 优化 |
 | 13 | Playground S6E11 信用卡欺诈 | Kaggle | 分类 | Swag（无现金） | 2,613 | 约 9 天 | 分类 |
 
-**#1 Smart Buildings 获奖细节**：主榜 $25,000 分给前 8 名（$5,750/$3,750/$3,000/$2,500×5）；论文奖 $15,000 分给 14 名（$1,000/$750/$500/$250×11）。论文奖按新颖性与写作质量评，**不拼榜上排名**，等于两次中奖机会。代码竞赛，CPU/GPU Notebook ≤9 小时，禁外网。
+**#1 Smart Buildings 获奖细节**：主榜 $25,000 分给前 8 名。论文奖分为两轮，首轮 14 个奖项已经截止，最终轮还有 12 个奖项（$3,000/$1,750/$750/$500×9）。论文另按方法质量、新颖性与表达清晰度评审。代码竞赛，CPU/GPU Notebook ≤9 小时，关闭互联网。[官方赛程和奖金](https://www.kaggle.com/competitions/neurips-2026-smart-buildings/overview)
 
-**#2/#3/#4** 均为 Kaggle 社区赛，参赛队伍极少，是国际赛道里"中奖率/奖金"比最高的几个。
+**#2/#3/#4** 均为 Kaggle 社区赛的旧快照。判定竞争程度前需要核对官方入口、有效榜单人数与现金奖。
 
 ---
 
@@ -68,15 +70,15 @@
 
 ---
 
-## 三、极冷门 · 个位数队伍（技术门槛高）
+## 三、FlagOS 算子与推理性能赛（技术门槛高）
 
 | # | 赛事 | 奖金 | 队伍 | 截止 | 门槛 |
 |---|---|---|---|---|---|
-| 27 | FlagOS Track1 SGLang 算子优化 | $5,925 | 3 | 约 1 个月 | Triton 内核、多芯片环境 |
-| 28 | FlagOS Track2 MiniCPM5 推理吞吐优化 | $9,000 | 3 | 约 1 个月 | 模型推理优化 |
-| 29 | FlagOS Season 2 开放计算 | $14,925 | 9 | 约 1 个月 | 高性能计算 |
+| 27 | FlagOS Track1 SGLang 算子优化 | $5,925 | 以官方单任务提交为准 | 见主站 | Triton 内核、多芯片环境 |
+| 28 | FlagOS Track2 MiniCPM5 推理吞吐优化 | $9,000 | 主站参赛数待核对 | 见主站 | 模型推理优化 |
+| 29 | FlagOS Season 2 开放计算 | $14,925（两赛道合计） | 汇总入口 | 见主站 | 高性能计算 |
 
-> 三个赛道都是"占坑制"：先达标即可拿下任务荣誉，可反复提交刷新成绩。奖金按占坑数分档（全额/8000/5000）+ 单任务极限优化奖 500 元。
+> Track 1 按主站任务地图和完成情况评奖，也设单任务极限性能奖。Track 2 按端到端推理吞吐排名。Season 2 汇总页用于跳转两条赛道。[任务地图与规则](https://flagos.io/race-detail-season2?id=782kzq4m&lang=en) · [奖金说明](https://www.kaggle.com/competitions/flag-os-open-computing-global-challenge-season-2)
 
 ---
 
@@ -254,7 +256,7 @@
 
 | # | 赛事 | 平台 | 方向 | 奖金 / 奖励 | 截止 | 规模 | 交付物 | 答辩 | 开发量 | 官方地址 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 59 | Underwater Vessel Noise Challenge | Zindi | 声学回归 + 写作奖 | $5,000 + 2×$1,000 | 2026-12-13 | 未公布 | CSV + 可选PDF | 否 | 中 | [Zindi 官方页](https://zindi.world/competitions/french-embassy-underwater-vessel-noise-challenge) |
+| 59 | Underwater Vessel Noise Challenge | Zindi | 声学回归 + 写作奖 | $5,000 现金（已含 2×$1,000 写作奖） | 2026-12-13 | 未公布 | CSV + 可选PDF | 否 | 中 | [Zindi 官方页](https://zindi.world/competitions/french-embassy-underwater-vessel-noise-challenge) |
 | 60 | Open Superconductor Challenge S1 | Hugging Face | 材料信息学 | $3,000 + 署名 | 2026-12-31 | 未公布 | submission.json | 否 | 低 | [数据集/规则](https://huggingface.co/datasets/FINAL-Bench/OSC-Superconductor) |
 | 61 | FINCHAL · NVIDIA | Hugging Face | 金融时序 | $500 | 2026-12-24 | 未公布 | -1~+1 仓位 | 否 | 低 | [Space](https://huggingface.co/spaces/FINAL-Bench/finchal) |
 | 62 | FINCHAL · Bitcoin | Hugging Face | 金融时序 | $500 | 2026-12-24 | 未公布 | -1~+1 仓位 | 否 | 低 | [Space](https://huggingface.co/spaces/FINAL-Bench/finchal) |
@@ -280,9 +282,44 @@
 
 ---
 
+## 十、优先机会与复核记录（2026-11-22）
+
+筛选优先看**实际有成绩的队伍或有效投稿数、当前还能争取的现金奖、资格和工作量**。报名人数、队伍数、提交次数分别记录。作品展未提供完整数字时写「未知」，不使用空页推断零投稿，也不把奖项数量除以报名人数当作个人获奖概率。本节日期默认北京时间，注明 UTC 的除外。
+
+### 先做这几项
+
+1. **最快能交付｜Reddit Devvit 反馈奖**。5 个个人奖，各 $200。注册并实际启动 Devvit 项目后，可单独提交一条有复现步骤和改进价值的 SDK 或文档反馈。规则允许只交反馈表，也可走完整游戏赛道。反馈数未公开。北京时间 **12 月 9 日 10:00** 截止，预计 **12 月 18 日** 公布结果。适合用一个小项目验证具体问题，奖项按反馈质量评审。[官方规则与反馈表入口](https://redditgameofday2026.devpost.com/rules)
+2. **已有成果转申报｜Vesuvius Challenge 11 月进展奖**。线上提交真实卷轴工作流的公开开源贡献。官方列出的典型奖励档位为 $250 至 $20,000，每月设一项 $20,000 最佳奖，其他名额动态决定。性能优化可用真实卷轴数据的端到端耗时、内存和结果一致性举证。多项小改动可合报一次，截止 **12 月 1 日 15:59**。公开链接为必填项，Villa 还要求作者亲自核验并说明用途。[奖项规则](https://scrollprize.org/prizes#progress-prizes) · [11 月申报表](https://docs.google.com/forms/d/e/1FAIpQLSeB6MC_--4UCCEGc3zalX57-uE4puRcE_vJoYJCrEt4uYaaaw/viewform) · [Villa 贡献指南](https://github.com/ScrollPrize/villa/blob/main/CONTRIBUTING.md)
+3. **奖面最宽的算法候选｜Universal Cup 冬季线上赛**。个人独立参赛，**11 月 24 日 20:00 至 12 月 8 日 20:00**。30 个现金名额，€5,000×1、€3,000×3、€2,000×5、€1,000×7、€500×14。开赛前实际参赛数未知。题目是 LDPC 译码，官方公告以有限迭代下的信息位误码率衡量质量，要求结合 Ising 建模、量子退火启发式算法和深度展开。赛前适合阅读主办方提供的论文并练习通用信道模型，参赛实现按条款在开赛后开始。完整计分和提交规格以正式题面为准。[中文公告及资料](https://ucup.ac/zh/news/ucup-winter-challenge-2026-registration-start/) · [比赛入口](https://challenge.ucup.ac/contest/6aed6de5dca641760998e9d7) · [参赛条款](https://challenge.ucup.ac/Terms-2026W.pdf)
+4. **报告单独评奖｜Zindi 船舶噪声**。允许个人或最多 4 人组队。写作奖 **2×$1,000**，与预测榜名次独立。想争写作奖可选一个真实声学场景，把可复现代码、模型误差和数据依据一起交。写作截止 **12 月 13 日 19:30**。总现金 $5,000（榜单 3 奖共 $3,000，写作共 $2,000），榜首另获价值 $2,500 的会议邀请。当前未核实完整榜单人数，会议展示属于榜首对应邀请，写作赛道可线上交稿。[官方规则与写作要求](https://zindi.world/competitions/french-embassy-underwater-vessel-noise-challenge)
+5. **低成本试跑｜Open Superconductor Challenge**。Light 路线在 CPU 上即可出初步分。三项现金奖为 $1,500、$1,000、$500，依据复核后的分数或方法、发现质量发放，同人或同队最多一奖。多人可用同一材料，临时榜位置和浏览数不能衡量独立竞争者。截止 **12 月 31 日 22:59**。[规则](https://huggingface.co/datasets/FINAL-Bench/OSC-Superconductor) · [评分入口](https://huggingface.co/spaces/FINAL-Bench/OSC-Leaderboard)
+
+### 线上应用赛与后续赛程
+
+以下 Devpost 报名数字来自 11 月 22 日核对的主办页面或平台列表，均为报名人数。四场的作品展未给出可核对的完整有效投稿数。
+
+| 赛事 | 现金奖 | 报名规模或实际提交 | 北京时间截止 | 工作量与取舍 |
+|---|---|---|---|---|
+| [Reddit Game of the Day](https://redditgameofday2026.devpost.com/rules) | $35k，12 个作品奖、6 个社区帮助奖、5 个反馈奖 | 约 2,100 人报名，作品和反馈数未知 | 12-09 10:00 | 游戏奖要求可运行的 Devvit 作品，反馈可单独交，优先看反馈奖 |
+| [QNX Global Hackathon](https://qnx.devpost.com/rules) | $50k，16 个现金奖项 | 约 2,300 人报名，作品数未知 | 12-16 03:00 | 需 QNX 8.0 作品，低层软件、开发工具、开源移植各有 2 个赛道奖 |
+| [Atlassian Codegeist](https://codegeist2026.devpost.com/rules) | $120k，9 个赛道奖再加 24 个集成奖项 | 约 4,700 人报名，作品数未知 | 12-23 04:00 | 需 Forge 应用，主奖和集成奖可重叠，另有最多 300 份实物礼包 |
+| [Kiroween](https://kiroween.devpost.com/rules) | 规则列 $100k 现金，至少 11 项明确现金奖另有 4 项学生奖 | 约 18,200 人报名，作品数未知 | 12-05 06:00 | 需用 Kiro 做全新作品并录演示，100 项博客奖励是 Kiro credits |
+| [Gemma 4 Developer Agent](https://www.kaggle.com/competitions/gemma-4-developer-agent/overview) | $100k 总奖金，按官方赛道分配 | 当前实际提交数未核对 | 11-25 报名、12-02 提交（官方 UTC 日期） | 入赛截止和最终提交相差一周，留给新作品的时间有限 |
+| [FrontierOR Challenge](https://frontieror-challenge.com/) | 主赛道前 6 队共 $21k，另设题目贡献和写作奖 | 未开赛，实际提交数未知 | 12-28 12:59 报名，2027-01-04 开赛（美国东部日期） | 用智能体设计运筹优化算法，四轮共 60 题。决赛规则 2 月 1 日公布，赛后演讲为可能邀请，先观察 |
+
+### 已记录项目的状态更正
+
+- **Smart Buildings（#1）**：首轮 14 个论文奖的投稿已于 11 月 13 日结束（UTC）。目前仍可争主榜 **8 个**与最终论文 **12 个**奖项，可以重叠。最终论文与主榜均截止 2027-01-15（UTC），1 月 3 日前接受规则（UTC）。官方概览可读旧快照为 85 队、311 次提交，原表约 208 队属于另一快照，当前上榜队数待复核。[官方赛程与分轮奖金](https://www.kaggle.com/competitions/neurips-2026-smart-buildings/overview)
+- **Soccer（#2）与 ROGII（#3）**：Soccer 的原入口未核实，同名近似的 [Soccer Feature Engineering](https://www.kaggle.com/competitions/soccer-feature-engineering-hackathon/overview) 已结束。ROGII 的现行官方规则和榜单暂未读到，保留原入口及旧记录，两项暂不排入低竞争首选。[ROGII 官方入口](https://www.kaggle.com/competitions/rogii-2-wellbore-curve-tracing)
+- **FlagOS（#27–29）**：Kaggle 展示数不能覆盖主办方的任务提交。Track 1 应按主站逐项查看任务是否仍可争取、当前分数和硬件要求，设单任务极限性能奖 $75。Track 2 按推理吞吐发前三奖，分别 $4,500、$3,000 和 $1,500。Season 2 是这两条赛道的汇总入口。[任务状态与主办方规则](https://flagos.io/race-detail-season2?id=782kzq4m&lang=en) · [奖金分解](https://www.kaggle.com/competitions/flag-os-open-computing-global-challenge-season-2)
+- **其他赛项**：Name That LLM、Santa 和 Qoder 已在表中，均不作为低竞争首选。Enveda 的 12 月 7 日为报名、12 月 14 日为提交（UTC），仅 5 个现金名额。Qoder 的累计参与人数和有效部署作品数需分别核对。[Name That LLM](https://www.kaggle.com/competitions/name-that-llm/overview) · [Santa](https://www.kaggle.com/competitions/santa-2026/overview) · [Enveda](https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra) · [Qoder](https://tianchi.aliyun.com/competition/entrance/532536/introduction)
+- **历史赛与悬赏观察**：8 月的 ICPC × Huawei Online Challenge 设前 50 名现金奖，已结束。Algotester 的 Huawei Optimization Tournament 第 2 轮已结束，前五现金奖 $1,500／$1,000／$500／$300／$200，另有学生奖励。Topcoder Marathon Match 逐场查开放报名、奖金和提交规则。小额开源悬赏只在原 Issue 的出资、验收和关联 PR 都可核对时推荐，本轮未查到适合立即认领的低竞争任务。[ICPC 夏赛](https://codeforces.com/contests/2251) · [Algotester](https://algotester.com/hot/en) · [Topcoder](https://www.topcoder.com/opportunities/competitions)
+
+---
+
 ## 数据文件
 
-- `competitions.csv`：全部赛事的结构化数据，含 **官方地址、详细方向、门槛说明、适合人群、开发量、是否需答辩/路演** 等字段，可用 Excel 筛选排序。当前共 72 条，其中 59–72 为本轮新增。
+- `competitions.csv`：全部赛事的结构化数据，含 **官方地址、详细方向、门槛说明、适合人群、开发量、是否需答辩/路演** 等字段，可用 Excel 筛选排序。当前共 83 条，73–83 为本轮新增。反馈子项和母赛事保留独立索引，统计奖金时只算一次。
 
 ---
 
